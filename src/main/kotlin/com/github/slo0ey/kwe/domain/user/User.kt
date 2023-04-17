@@ -1,4 +1,4 @@
-package com.github.slo0ey.kwe.model
+package com.github.slo0ey.kwe.domain.user
 
 import org.jetbrains.exposed.dao.LongEntity
 import org.jetbrains.exposed.dao.LongEntityClass
@@ -13,9 +13,9 @@ object Users: LongIdTable() {
 
 class User(id: EntityID<Long>): LongEntity(id) {
     companion object : LongEntityClass<User>(Users)
-    val name by Users.name
-    val age by Users.age
-    val gender by Users.gender
+    var name by Users.name
+    var age by Users.age
+    val gender by Users.gender // hmm... I don't want to allow to change gender.
 }
 
 enum class Gender {
