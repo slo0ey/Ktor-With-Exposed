@@ -1,8 +1,8 @@
 package com.github.slo0ey.kwe.global.database
 
-import com.github.slo0ey.kwe.domain.building.Buildings
-import com.github.slo0ey.kwe.domain.country.Cities
-import com.github.slo0ey.kwe.domain.user.Users
+import com.github.slo0ey.kwe.domain.building.entity.Buildings
+import com.github.slo0ey.kwe.domain.city.entity.Cities
+import com.github.slo0ey.kwe.domain.user.entity.Users
 import com.zaxxer.hikari.HikariConfig
 import com.zaxxer.hikari.HikariDataSource
 import kotlinx.coroutines.*

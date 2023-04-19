@@ -1,4 +1,4 @@
-package com.github.slo0ey.kwe.domain.country
+package com.github.slo0ey.kwe.domain.city.entity
 
 import org.jetbrains.exposed.dao.IntEntity
 import org.jetbrains.exposed.dao.IntEntityClass

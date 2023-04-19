@@ -1,4 +1,4 @@
-package com.github.slo0ey.kwe.domain.user
+package com.github.slo0ey.kwe.domain.user.entity
 
 import org.jetbrains.exposed.dao.LongEntity
 import org.jetbrains.exposed.dao.LongEntityClass

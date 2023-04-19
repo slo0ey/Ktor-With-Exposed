@@ -1,9 +1,9 @@
-package com.github.slo0ey.kwe.domain.building
+package com.github.slo0ey.kwe.domain.building.entity
 
-import com.github.slo0ey.kwe.domain.country.Cities
-import com.github.slo0ey.kwe.domain.country.City
-import com.github.slo0ey.kwe.domain.user.User
-import com.github.slo0ey.kwe.domain.user.Users
+import com.github.slo0ey.kwe.domain.city.entity.Cities
+import com.github.slo0ey.kwe.domain.city.entity.City
+import com.github.slo0ey.kwe.domain.user.entity.User
+import com.github.slo0ey.kwe.domain.user.entity.Users
 import org.jetbrains.exposed.dao.LongEntity
 import org.jetbrains.exposed.dao.LongEntityClass
 import org.jetbrains.exposed.dao.id.EntityID
